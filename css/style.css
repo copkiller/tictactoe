@@ -1,0 +1,38 @@
+body {
+	background: #00A383;
+}
+
+
+.main-tictac-field {
+	padding: 100px 0px 0px 0px;
+	margin: 0 auto;
+	width: 457px;
+	background: #00A383;
+}
+
+.window {
+	background-color: rgb(19, 134, 111);
+	width: 150px;
+	height: 150px;
+}
+
+.window:hover {
+	background-color: #FF8B40;
+}
+
+.cross {
+	background-color: #A64100;
+}
+
+.cross:hover {
+	background-color: #A64100;
+}
+
+.circle {
+	background-color: #24577B;
+	border-radius: 50%;
+}
+
+.circle:hover {
+	background-color: #24577B;
+}
