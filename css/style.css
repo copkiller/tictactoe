@@ -17,22 +17,22 @@ body {
 }
 
 .window:hover {
-	background-color: #FF8B40;
+	background-color: rgb(255, 140, 64);
 }
 
 .cross {
-	background-color: #A64100;
+	background-color: rgb(189, 94, 36);
 }
 
 .cross:hover {
-	background-color: #A64100;
+	background-color: rgb(189, 94, 36);
 }
 
 .circle {
-	background-color: #24577B;
+	background-color: rgb(55, 122, 170);
 	border-radius: 50%;
 }
 
 .circle:hover {
-	background-color: #24577B;
+	background-color: rgb(55, 122, 170);
 }
