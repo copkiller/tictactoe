@@ -1,17 +1,17 @@
 // get all elements
-const firstWindowEl = document.querySelector('.first-window');
-const secondWindowEl = document.querySelector('.second-window');
-const thirdWindowEl = document.querySelector('.third-window');
-const fourthWindowEl = document.querySelector('.fourth-window');
-const fifthWindowEl = document.querySelector('.fifth-window');
-const sixthWindowEl = document.querySelector('.sixth-window');
-const seventhWindowEl = document.querySelector('.seventh-window');
-const eighthWindowEl = document.querySelector('.eighth-window');
-const ninethWindowEl = document.querySelector('.nineth-window');
+let firstWindowEl = document.querySelector('.first-window');
+let secondWindowEl = document.querySelector('.second-window');
+let thirdWindowEl = document.querySelector('.third-window');
+let fourthWindowEl = document.querySelector('.fourth-window');
+let fifthWindowEl = document.querySelector('.fifth-window');
+let sixthWindowEl = document.querySelector('.sixth-window');
+let seventhWindowEl = document.querySelector('.seventh-window');
+let eighthWindowEl = document.querySelector('.eighth-window');
+let ninethWindowEl = document.querySelector('.nineth-window');
 
 // arrays for counting
-const firstPlayerArr = [false, false, false, false, false, false, false, false, false,];
-const secondPlayerArr = [false, false, false, false, false, false, false, false, false,];
+let firstPlayerArr = [false, false, false, false, false, false, false, false, false,];
+let secondPlayerArr = [false, false, false, false, false, false, false, false, false,];
 
 // add events to elements
 firstWindowEl.addEventListener("click", onFirstWindowElClick);
@@ -205,7 +205,7 @@ function checkWinningCombinationOfPlayer(i) {
     }
 }
 
-const indexOfTurn = 0;
+let indexOfTurn = 0;
 
 // actions on click first player
 function onFirstWindowElClick() {
